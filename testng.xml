@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionSuite">
+    <test name="Petstore API Tests">
+        <classes>
+             <class name="com.cba.petstore.pet.test.TC01_FindPet"/> 
+            <class name="com.cba.petstore.pet.test.TC02_AddNewPet"/>
+            <class name="com.cba.petstore.pet.test.TC03_UpdatePet"/>
+        </classes>
+    </test>
+</suite>
